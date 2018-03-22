@@ -21,8 +21,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':Core')
     compile project(':InitActivity')
+    compile 'la.xiong.androidquick:AndroidQuick:latest.release'
     //butterknife
     annotationProcessor "com.jakewharton:butterknife-compiler:8.6.0"
     //dagger2
