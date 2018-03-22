@@ -7,3 +7,6 @@
 2. vitamio(直播组件开源框架)
 
 本项目用于验证使用AndroidQuick快速开发框架开发APP，仅供学习参考。
+
+# 关于AndroidQuick
+https://github.com/ddnosh/AndroidQuick
