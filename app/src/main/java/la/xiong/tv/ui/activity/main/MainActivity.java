@@ -10,6 +10,7 @@ import com.flyco.tablayout.SlidingTabLayout;
 import butterknife.BindView;
 import la.xiong.tv.R;
 import la.xiong.tv.base.BaseTActivity;
+import la.xiong.tv.ui.fragment.catalogue.CatalogueFragment;
 import la.xiong.tv.ui.fragment.home.HomeFragment;
 
 /**
@@ -24,7 +25,7 @@ public class MainActivity extends BaseTActivity {
     @BindView(R.id.ftl_main_tab)
     SlidingTabLayout mSlidingTabLayout;
 
-    private String[] mTitles = {"首页"};
+    private String[] mTitles = {"首页", "栏目"};
 
     private MyPagerAdapter mAdapter;
 
@@ -62,12 +63,9 @@ public class MainActivity extends BaseTActivity {
                 case 0:
                     fragment = HomeFragment.newInstance();
                     break;
-//                case 1:
-//                    fragment = new HomeFragment();
-//                    break;
-//                case 2:
-//                    fragment = new HomeFragment();
-//                    break;
+                case 1:
+                    fragment = CatalogueFragment.newInstance();
+                    break;
                 default:
                     break;
             }

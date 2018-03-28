@@ -6,8 +6,6 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.util.List;
 
-import la.xiong.tv.bean.LinkObject;
-
 /**
  * @author ddnosh
  * @website http://blog.csdn.net/ddnosh
@@ -730,8 +728,8 @@ public class HomeModel {
 
         public static final int TYPE_AD = 0;
         public static final int TYPE_CLASSIFY = 1;
-        public static final int TYPE_LIVE = 2;
-        public static final int TYPE_RECOMMEND = 3;
+        public static final int TYPE_RECOMMEND = 2;
+        public static final int TYPE_LIVE = 3;
 
         private String slug;
         private String name;

@@ -23,7 +23,7 @@ import la.xiong.tv.ui.adapter.HomeAdapter;
  */
 public class HomeFragment extends BaseTFragment<HomePresenter> implements HomeContract.View{
 
-    @BindView(R.id.rv_adapter)
+    @BindView(R.id.rv_home)
     RecyclerView mRecyclerView;
 
     private List<HomeModel.ListBean> beanList;
@@ -49,7 +49,7 @@ public class HomeFragment extends BaseTFragment<HomePresenter> implements HomeCo
 
     @Override
     protected int getContentViewLayoutID() {
-        return R.layout.fragment_recommend;
+        return R.layout.fragment_home;
     }
 
     @Override
@@ -80,7 +80,7 @@ public class HomeFragment extends BaseTFragment<HomePresenter> implements HomeCo
             } else if ("app-recommendation".equals(name)) {
                 listBean.itemType = HomeModel.ListBean.TYPE_RECOMMEND;
             } else {
-                listBean.itemType = HomeModel.ListBean.TYPE_LIVE;;
+                listBean.itemType = HomeModel.ListBean.TYPE_LIVE;
             }
         }
         mHomeAdapter.setNewData(homeModel.getList());

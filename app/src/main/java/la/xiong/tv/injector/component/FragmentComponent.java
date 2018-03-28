@@ -5,6 +5,7 @@ import android.app.Activity;
 import dagger.Component;
 import la.xiong.tv.injector.FragmentScope;
 import la.xiong.tv.injector.module.FragmentModule;
+import la.xiong.tv.ui.fragment.catalogue.CatalogueFragment;
 import la.xiong.tv.ui.fragment.home.HomeFragment;
 
 /**
@@ -18,4 +19,5 @@ public interface FragmentComponent {
     Activity getActivity();
 
     void inject(HomeFragment homeFragment);
+    void inject(CatalogueFragment catalogueFragment);
 }

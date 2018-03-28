@@ -1,5 +1,8 @@
 package la.xiong.tv.network;
 
+import java.util.List;
+
+import la.xiong.tv.bean.CategoryModel;
 import la.xiong.tv.bean.HomeModel;
 import la.xiong.tv.bean.Video;
 import retrofit2.http.GET;
@@ -14,8 +17,8 @@ public interface TVApis {
     @GET("page/appv2-index/info.json")
     Observable<HomeModel> getHomeModel();
 
-//    @GET("categories/list.json")
-//    Observable<List<CategoryModel>> getCategoryModelList();
+    @GET("categories/list.json")
+    Observable<List<CategoryModel>> getCategoryModelList();
 //
 //    @GET("play/list.json")
 //    Observable<AllLiveModel> getAllLive();
