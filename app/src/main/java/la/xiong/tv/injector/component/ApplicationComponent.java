@@ -5,7 +5,7 @@ import android.content.Context;
 import javax.inject.Singleton;
 
 import dagger.Component;
-import la.xiong.androidquick.network.RetrofitManager;
+import la.xiong.androidquick.network.retrofit.RetrofitManager;
 import la.xiong.tv.MyApplication;
 import la.xiong.tv.injector.module.ApplicationModule;
 

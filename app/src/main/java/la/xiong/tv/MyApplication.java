@@ -3,7 +3,7 @@ package la.xiong.tv;
 import android.app.Application;
 
 import io.vov.vitamio.Vitamio;
-import la.xiong.androidquick.network.RetrofitManager;
+import la.xiong.androidquick.network.retrofit.RetrofitManager;
 import la.xiong.androidquick.tool.ToastUtil;
 import la.xiong.tv.injector.component.ApplicationComponent;
 import la.xiong.tv.injector.component.DaggerApplicationComponent;

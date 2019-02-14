@@ -10,5 +10,5 @@
 
     </android.support.v7.widget.RecyclerView>
 
-    <include layout="@layout/layout_loading"/>
+    <include layout="@layout/dialog_loading"/>
 </FrameLayout>

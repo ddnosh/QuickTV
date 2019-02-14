@@ -4,7 +4,7 @@ import android.content.Context;
 
 import javax.inject.Inject;
 
-import la.xiong.androidquick.network.RetrofitManager;
+import la.xiong.androidquick.network.retrofit.RetrofitManager;
 import la.xiong.tv.MyApplication;
 import la.xiong.tv.bean.HomeModel;
 import la.xiong.tv.network.TVApis;

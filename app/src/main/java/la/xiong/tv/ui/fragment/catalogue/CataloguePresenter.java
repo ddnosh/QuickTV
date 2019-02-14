@@ -6,7 +6,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import la.xiong.androidquick.network.RetrofitManager;
+import la.xiong.androidquick.network.retrofit.RetrofitManager;
 import la.xiong.tv.MyApplication;
 import la.xiong.tv.bean.CategoryModel;
 import la.xiong.tv.network.TVApis;

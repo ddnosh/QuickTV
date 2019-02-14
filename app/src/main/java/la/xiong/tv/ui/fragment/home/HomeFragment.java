@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
-import la.xiong.androidquick.tool.DialogUtil;
 import la.xiong.tv.R;
 import la.xiong.tv.base.BaseTFragment;
 import la.xiong.tv.bean.HomeModel;
@@ -59,12 +58,12 @@ public class HomeFragment extends BaseTFragment<HomePresenter> implements HomeCo
 
     @Override
     public void showLoading() {
-        DialogUtil.showLoadingDialog(getActivity());
+        showLoadingDialog();
     }
 
     @Override
     public void stopLoading() {
-        DialogUtil.dismissLoadingDialog(getActivity());
+        dismissLoadingDialog();
     }
 
     @Override
